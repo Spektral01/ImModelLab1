@@ -63,8 +63,7 @@ namespace WindowsFormsApp2
 
        
             if (CheckPoverh.Checked == false || i>3)
-            {
-                
+            {    
                 i = 0;
                 foreach (var series in chart1.Series)
                 {
@@ -73,7 +72,6 @@ namespace WindowsFormsApp2
             }
             else
             {
-   
                 i++;
             }
 
